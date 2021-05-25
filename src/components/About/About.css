@@ -1,0 +1,16 @@
+@media screen and (max-width: 960px){
+	.about-heading-on-mobile{
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 21px;
+		text-align: center;
+	}
+
+	.about-paragraph-on-mobile{
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 15px;
+		text-align: center;
+		
+	}
+}

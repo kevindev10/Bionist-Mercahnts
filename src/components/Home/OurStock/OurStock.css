@@ -1,0 +1,50 @@
+.button-component-main-styling {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+
+.button-component-styling{
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+
+
+}
+
+.button-component-styling-actual-button{
+	border-color:  #2BCCC3  !important;
+}
+
+.button-component-styling-actual-button:hover{
+	background-color: #1D8B85;
+}
+.button-component-styling-actual-button:focus{
+	background-color:#2BCCC3;
+}
+
+
+
+@media screen and (max-width: 960px){
+	.button-component-main-styling{
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top:0px !important;
+	}
+	.button-component-styling{
+		display:block;
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	.button-component-styling-actual-button{
+		width: 100% !important ;
+		height: 50px !important;
+		margin-top: 10px !important;
+		margin-right: 5px !important;
+		margin-bottom: 10px !important;
+		margin-left: 5px !important;
+	}
+
+}

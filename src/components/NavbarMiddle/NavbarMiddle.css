@@ -1,0 +1,56 @@
+.company-name{
+	font-family: 'Audiowide', cursive;
+	font-size: 40px;
+	color:#1D8B85;
+}
+
+.buttonMiddle-styling{
+	background-color:#2BCCC3 !important;
+	border-color:  #2BCCC3  !important;
+	
+
+}
+
+@media screen and (max-width: 960px) {
+	.middle-menu-view-on-mobile{
+		display: block;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.middle-menu-height-on-mobile{
+		height:350px !important;
+
+		text-align:left;
+	}
+	.midnav-button-on-mobile{
+		text-align: left;
+		margin-left: 35px;
+		
+	}
+	.midnav-button-on-mobile-2{
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.company-name{
+		font-size: 35px;
+	}
+	.midnav-icons-on-mobile{
+		font-size: 22px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		border: none;
+
+	}
+	.midnav-contact-on-mobile{
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+
+	}
+	.navmid-phn-no-on-mobile{
+		width: 85%;
+		 word-wrap: break-word;
+	}
+}

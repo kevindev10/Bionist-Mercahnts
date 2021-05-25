@@ -1,0 +1,31 @@
+.image-styling{
+  box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+  border-radius:.125rem;
+}
+.list-items-text-color{
+	color:gray;
+}
+
+@media screen and (max-width: 960px){
+	.demo1-article-view-on-mobile {
+		width: 90% !important;
+	}
+	.demo1-main-view-on-mobile{
+		display: block
+	}
+
+	.demo1-heading-view-on-mobile{
+		width: 100%;
+		margin-top:0px;
+		margin-bottom: 40px;
+	}
+	.demo1-image-view-on-mobile{
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.demo1-actual-image-view-on-mobile{
+		height: 450px;
+	}
+
+}

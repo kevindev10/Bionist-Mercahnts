@@ -1,0 +1,75 @@
+.footer{
+	overflow:hidden;
+}
+
+@media screen and (max-width: 960px){
+	.home-contact-card-on-mobile{
+		display: block;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.heading-on-mobile{
+		font-size: 25px;
+	}
+	.paragraph-on-mobile{
+		font-size: 16px;
+	}
+	.main-cardz-on-mobile{
+		padding-right: 0px;
+		padding-left: 0px ;
+		margin-left: 0px;
+		margin-right: 0px;
+
+	}
+	.cardz-on-mobile{
+		margin-top: 10px;
+		margin-bottom: 30px;
+		margin-left: 10px;
+		margin-right: 10px;
+
+
+		width: 95%;
+	}
+	.card-photo-mobile{
+		object-fit: cover;
+		width: 100%;
+		
+		
+	}
+	.footer-main-one {
+		display: block;
+	}
+
+	.footer-main-two{
+		display: block;
+	}
+	.footer-width{
+		width: 100%;
+	}
+	.footer-margin{
+		margin-left: 20px;
+		margin-right: 20px;
+		text-align: center;
+	}
+	.footer-submenu{
+		display: none;
+	}
+	.footer-product-categories{
+	   padding-top: 10px;
+	   margin-bottom: 10px;
+
+   }
+   .footer-copyright{
+   	padding-left: 20px;
+   	padding-right: 20px;
+   }
+}
+
+
+@media screen and (min-width: 961px){
+	
+	.cardz{
+		display: flex;
+		justify-content: center;
+	}
+}

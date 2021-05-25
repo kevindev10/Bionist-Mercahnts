@@ -1,0 +1,81 @@
+.topnav{
+	height: 63px
+}
+
+.fa {
+  padding: 13px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+ul{
+	list-style: none;
+}
+
+
+@media screen and (max-width: 960px){
+	.topnav{
+		height: 80px;
+		display:block;
+		text-align: center;
+
+		margin-right: auto;
+		margin-left: auto;
+			
+	}
+	.p-tag-on-mobile{
+		font-size: 15px;
+		margin-right: 5px;
+		margin-left: 5px;
+		padding-right: 5px;
+		padding-left: 5px; 
+	}
+	.ul-tag-on-mobile{
+		justify-content: center;
+		padding-top: 5px;
+		margin-right: 5px;
+		margin-left: 5px;
+		padding-right: 5px;
+		padding-left: 5px; 
+	}
+	.fa{
+	  padding: 9px;
+	  font-size: 16px;
+	  width: 35px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 5px;
+	} 
+
+}
