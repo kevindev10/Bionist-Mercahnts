@@ -1,5 +1,6 @@
 {
   "name": "bionist-merchants",
+  "homepage": "https://bionist.merchants.flexdevske.co.ke/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
